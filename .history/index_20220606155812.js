@@ -1,7 +1,7 @@
 // code your solution here
 
 function saturdayFun(activity="roller-skate"){
-    return `This Saturday, I want to ${activity}!`
+    return `This Saturday, I want to ${activity}`
 }
 
 let mondayWork = function(activity="go to the office"){
@@ -22,17 +22,6 @@ const Calculator = {
         return a - b;
     },
     multiply: function(a,b){
-        return a * b;
-    },
-    divide: function(a,b){
-        return a / b;
+        return 
     }
-}
-
-let actionApplyer = function(start, ray){
-    let a = start
-    for(let i = 0; i < ray.length; i++){
-        a = ray[i](a)
-    }
-    return a;
 }

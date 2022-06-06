@@ -1,7 +1,7 @@
 // code your solution here
 
 function saturdayFun(activity="roller-skate"){
-    return `This Saturday, I want to ${activity}!`
+    return `This Saturday, I want to ${activity}`
 }
 
 let mondayWork = function(activity="go to the office"){
@@ -31,8 +31,5 @@ const Calculator = {
 
 let actionApplyer = function(start, ray){
     let a = start
-    for(let i = 0; i < ray.length; i++){
-        a = ray[i](a)
-    }
-    return a;
+    for(let i = 0; i < ray.length; i+)
 }
